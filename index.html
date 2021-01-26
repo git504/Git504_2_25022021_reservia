@@ -1,11 +1,65 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
+<!-- HTM 5 et CSS3 Openclassroom projet #2 RESERVIA page d'index -->
+  <!-- lang, ID et Class en Fr -->
+  <!-- https://validator.w3.org/-->
+  <!-- ETAPES : 1/maquette, 2/dossier+img, 3/organiser HTML et 4/Style CSS-->
+
+  <!DOCTYPE html>   <!-- balises structurantes de HTML5 -->
+  <html lang="fr">
+  <head>   <!-- balises structurantes de HTML5 -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservia - Git504 - OC - #2</title>
+    <link rel="stylesheet" href="stylereservia.css"> <!-- Lien feuille de style-->
+    <link href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all" rel="stylesheet"> <!-- Lien Bibliotheque FONT AWESOME-->
+  </head>
   
-</body>
-</html>
+  <body>   <!-- balises structurantes de HTML5 -->
+  
+    <!-- en tete -->
+    <header class="header">
+      <img class="headerLogo" src="images/Reservia.svg" alt="Reservia" title="Reservia">
+      <nav class="headerMenu"> <!-- balises structurantes de HTML5 -->
+        <a class="headerMenuIndex" href="#hebergements">Hébergement</a>  <!-- # signifie ancre ds la page a un endroit precis -->
+        <a class="headerMenuIndex" href="#activites">Activités</a>
+      </nav> <!-- balises structurantes de HTML5 -->
+      <a class="headerMenuSinscrire" href="#sans ancre">S'inscrire</a>
+    </header>
+    <!-- en tete -->
+  
+  <!-- MAIN = bloc_page, main_wrapper : Cette balise englobe tout le contenu, 
+      ce qui va nous permettre de fixer facilement les dimensions de la page 
+      et de centrer notre site à l'écran -->
+    <main class="main">
+
+    </main>    <!-- balises structurantes de HTML5 -->
+    <!-- FIN MAIN : bloc_page -->
+    
+    <!-- DEBUT FOOTER : pied de page -->
+      <footer class="footer">   <!-- balises structurantes de HTML5 -->
+    
+        <div class="footerIndex">
+    
+          <div class="footerIndexFlex">
+            <h3 class="footerIndexFlexTitre">A propos</h3>
+            <a href="#" class="footerIndexFlexListe">Fonctionnement du site</a>
+            <a href="#" class="footerIndexFlexListe">Conditions générales de vente</a>
+            <a href="#" class="footerIndexFlexListe">Données et confidentialités</a>
+          </div>
+    
+          <div class="footerIndexFlex">
+            <h3 class="footerIndexFlexTitre">Nos hébergement</h3>
+            <a href="#" class="footerIndexFlexListe">Charte qualité</a>
+            <a href="#" class="footerIndexFlexListe">Soumettre votre hotel</a>
+          </div>
+    
+          <div class="footerIndexFlex">
+            <h3 class="footerIndexFlexTitre">Assitance</h3>
+            <a href="#" class="footerIndexFlexListe">Centre d'aide</a>
+            <a href="#" class="footerIndexFlexListe">Nous contacter</a>
+          </div>
+    
+        </div>
+      </footer>
+    <!-- FIN FOOTER : pied de page-->
+    </body>
+    </html>   <!-- balises structurantes de HTML5 -->
