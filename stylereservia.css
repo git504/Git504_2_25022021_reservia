@@ -1,0 +1,20 @@
+/*Cascading Style Sheets CSS 3*/
+/*Les icônes proviennent de la bibliothèque Font Awesome*/
+/*Les couleurs de la charte sont le bleu #0065FC, sa version plus claire #DEEBFF, le gris pour le fond #F2F2F2*/
+/*La police du site est Raleway @font-some*/
+/*@media  breackpoint : 1024, la largeur d'un Ipad*/
+
+html {
+    line-height: 1.2;
+  }
+  
+  @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
+  body {
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+  }
+  
+  img {
+    border-style: none;
+  }
+  
