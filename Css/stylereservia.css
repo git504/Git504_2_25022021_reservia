@@ -252,7 +252,7 @@ text-decoration: none;
     display: none !important;
   }
 }
-.hostingWrapper, .hebergementGrisPopulaire, .hebergementgris{
+.activites, .hebergementGrisPopulaire, .hebergementgris{
   background-color: #F2F2F2;
   border-radius: 1.5rem;
   padding: 3rem;
