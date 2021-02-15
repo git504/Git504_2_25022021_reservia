@@ -64,10 +64,10 @@ text-decoration: none;
     grid-template-areas: "logo . navbar button";
   }
   .headerMenuIndex {
-    border-top: 3px solid #0065FC;
+    /* border-top: 3px solid #0065FC; */
   }
   .headerMenuIndex:hover {
-    border-top: 3px solid #0065FC;
+   border-top: 3px solid #0065FC;
   }
 }
 @media screen and (max-width: 600px) {
